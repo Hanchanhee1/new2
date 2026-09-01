@@ -408,12 +408,13 @@ main {
 .panel-intro p {
   margin: 18px 0 0;
   color: var(--muted);
-  font-size: clamp(1.15rem, 1.6vw, 1.6rem);
+  font-size: clamp(1.15rem, 1.6vw, 1.3rem);
   line-height: 1.4;
   letter-spacing: -0.05em;
 }
 
 .panel-stats {
+  display: grid;
   padding: 24px 28px;
 }
 
